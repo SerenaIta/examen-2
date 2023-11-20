@@ -6,68 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-3 offset-9 col-lg-8 offset-lg-2">hamburger</div>
-          <div class="col-6 offset-3 col-lg-2 offset-lg-5">
-            <img src="img/KINTSU_logo.svg" alt="" />
+          <div class="col-12 offset-9 col-lg-8 offset-lg-2">
+            <img
+              class="hamburger-icon"
+              src="img/hamburger.png"
+              alt="Hmaburger menu."
+            />
+          </div>
+          <div class="col-12">
+            <img
+              class="logo"
+              src="img/KINTSU_logo.svg"
+              alt="Logo Restaurant Kintsu."
+            />
           </div>
           <div class="col-6 offset-3 col-lg-4 offset-lg-3">
-            <p>Le goût demande qu'à être redécouvert, laissez vous tenter !</p>
+            <p class="center-text hide-mobile">
+              Le goût demande qu'à être redécouvert, laissez vous tenter !
+            </p>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-6 offset-3 col-lg-2 offset-lg-5 order-lg-2">
-            <a href="">Réserver</a>
-          </div>
+      <div class="col-6 offset-3 col-lg-4 offset-lg-3">
+        <p class="center-text">
+          Le goût demande qu'à être redécouvert, laissez vous tenter !
+        </p>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel">
           <div class="row">
-            <div class="col-6 offset-xs-3 col-lg-6 order-lg-0">
-              <h2>Nos délicieuses sélections du moment</h2>
+            <div class="col-6 offset-3 col-lg-2 offset-lg-5 order-lg-2">
+              <a class="gold-button" href="">Réserver</a>
             </div>
-          </div>
-          <div class="col-12 col-lg-4 order-lg-1">
-            <div class="article">
-              <img
-                src="img/article-1.jpg"
-                alt="Ramen Tonkotsu Authentique en assiette."
-              />
-              <h3>Ramen Tonkotsu Authentique</h3>
-              <p>
-                Un bol fumant de nouilles épaisses dans un bouillon de porc
-                richement parfumé, garni de tranches de porc fondant, d'œuf
-                mariné à la perfection et de ciboulette croustillante.
-              </p>
+            <div class="row">
+              <div class="col-6 offset-xs-3 col-lg-6 order-lg-0">
+                <h2 class="center-text">
+                  Nos délicieuses sélections du moment
+                </h2>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4 order-lg-1">
-            <img
-              src="img/article-2.jpg"
-              alt="Crevettes Tempura Gourmandes en assiette."
-            />
-            <h3>Crevettes Tempura Gourmandes</h3>
-            <p>
-              Crevettes jumbo enrobées d'une pâte légère et croustillante,
-              accompagnées d'une sauce dip exquise.
-            </p>
-          </div>
-          <div class="col-lg-4 order-lg-1">
-            <img
-              src="img/article-3.jpg"
-              alt="Tataki de Bœuf Fondant en assiette."
-            />
-            <h3>Tataki de Bœuf Fondant</h3>
-            <p>
-              Bœuf légèrement saisi, tranché finement et agrémenté d'une
-              marinade savoureuse pour une expérience tendre et pleine de
-              saveurs.
-            </p>
+            <div class="row">
+              <div class="col-12 col-lg-4 order-lg-1 carousel-item">
+                <div class="moment-selection">
+                  <img
+                    class="img-moment-selection"
+                    src="img/article-1.jpg"
+                    alt="Ramen Tonkotsu Authentique en assiette."
+                  />
+                  <h3>Ramen Tonkotsu Authentique</h3>
+                  <p class="p-moment-selection">
+                    Un bol fumant de nouilles épaisses dans un bouillon de porc
+                    richement parfumé, garni de tranches de porc fondant, d'œuf
+                    mariné à la perfection et de ciboulette croustillante.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 order-lg-1 carousel-item">
+                <div class="moment-selection">
+                  <img
+                    class="img-moment-selection"
+                    src="img/article-2.jpg"
+                    alt="Crevettes Tempura Gourmandes en assiette."
+                  />
+                  <h3>Crevettes Tempura Gourmandes</h3>
+                  <p class="p-moment-selection">
+                    Crevettes jumbo enrobées d'une pâte légère et croustillante,
+                    accompagnées d'une sauce dip exquise.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 order-lg-1 carousel-item">
+                <div class="moment-selection">
+                  <img
+                    class="img-moment-selection"
+                    src="img/article-3.jpg"
+                    alt="Tataki de Bœuf Fondant en assiette."
+                  />
+                  <h3>Tataki de Bœuf Fondant</h3>
+                  <p class="p-moment-selection">
+                    Bœuf légèrement saisi, tranché finement et agrémenté d'une
+                    marinade savoureuse pour une expérience tendre et pleine de
+                    saveurs.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -79,58 +121,69 @@
         </div>
         <div class="row">
           <div class="col-6 offset-3 col-lg-2 offset-lg-0">
-            <p>Lun-ven 08:00-23:00</p>
+            <p class="center-text">Lun-ven 08:00-23:00</p>
           </div>
           <div class="col-6 offset-3 col-lg-2 offset-lg-3">
-            <p>Samedi 09:00-23:00</p>
+            <p class="center-text">Samedi 09:00-23:00</p>
           </div>
           <div class="col-6 offset-3 col-lg-2 offset-lg-3">
-            <p>Dimanche Fermé</p>
+            <p class="center-text">Dimanche Fermé</p>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-6 order-lg-1">
-            <img src="img/galerie-1.jpg" alt="Sushis croustillants." />
-          </div>
-          <div class="col-6 order-lg-1">
-            <img src="img/galerie-2.jpg" alt="Soupe à la crème et crevettes." />
-          </div>
-          <div class="col-6 order-lg-1">
-            <img src="img/galerie-3.jpg" alt="Sushis croustillants." />
-          </div>
-          <div class="col-6 order-lg-1">
-            <img
-              src="img/galerie-4.jpg"
-              alt="Harricots verts avec vainde haché."
-            />
-          </div>
-          <div class="col-6 order-lg-1">
-            <img src="img/galerie-5.jpg" alt="Soupe de raviolis à la vapeur." />
-          </div>
-          <div class="col-6 order-lg-1">
-            <img src="img/galerie-6.jpg" alt="Raviolis grillés avec herbes." />
-          </div>
-          <div class="col-6 offset-3 col-lg-10 offset-lg-1 order-lg-0">
-            <a href="">Notre carte</a>
+          <div class="col-12 order-lg-1 row-galerie">
+            <div class="galerie">
+              <img src="img/galerie-1.jpg" alt="Sushis croustillants." />
+            </div>
+            <div class="galerie">
+              <img
+                src="img/galerie-2.jpg"
+                alt="Soupe à la crème et crevettes."
+              />
+            </div>
+            <div class="galerie">
+              <img src="img/galerie-3.jpg" alt="Sushis croustillants." />
+            </div>
+            <div class="galerie">
+              <img
+                src="img/galerie-4.jpg"
+                alt="Harricots verts avec vainde haché."
+              />
+            </div>
+            <div class="galerie">
+              <img
+                src="img/galerie-5.jpg"
+                alt="Soupe de raviolis à la vapeur."
+              />
+            </div>
+            <div class="galerie">
+              <img
+                src="img/galerie-6.jpg"
+                alt="Raviolis grillés avec herbes."
+              />
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-10 offset-lg-1">
-            <p>
-              Le Kintsu reprend une tradition japonaise qui consiste à rendre
-              quelque chose de brisé, plus beau et plus fort. Dans notre
-              restaurant vous serez accueillis dans une ambiance chaleureuse et
-              accueillante. Notre carte aux goûts variés fera voyager vos
-              papilles et les réconcilier avec vous-même.
-            </p>
-          </div>
+      </div>
+      <div class="col-6 offset-3 col-lg-10 offset-lg-1 order-lg-0">
+        <a class="gold-button" href="">Notre carte</a>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-10 offset-lg-1">
+          <p class="bg-gradient-last-main-p">
+            Le Kintsu reprend une tradition japonaise qui consiste à rendre
+            quelque chose de brisé, plus beau et plus fort.<br /><br />Dans
+            notre restaurant vous serez accueillis dans une ambiance chaleureuse
+            et accueillante.<br /><br />Notre carte aux goûts variés fera
+            voyager vos papilles et les réconcilier avec vous-même.
+          </p>
         </div>
       </div>
     </main>
     <footer>
-      <div class="container">
+      <div class="reservation-container">
         <div class="row">
           <div class="col-6 col-lg-4"><h2>Réservation</h2></div>
         </div>
@@ -146,34 +199,55 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="footer-container">
         <div class="row">
           <div class="col-12 col-lg-8">
-            <a href="tel:0041 22 123 45 67">+41 22 123 45 67</a>
+            <a href="tel:0041 22 123 45 67">+41 22 123 45 67</a><br />
             <a href="mailto:contact@restaurant-kintsu.ch"
               >contact@restaurant-kintsu.ch</a
             >
-            <p>123 Rue du Mont Blanc <br />1200 Genève</p>
-            <a
-              href="https://www.google.com/maps/place/Rue+du+Mont-Blanc+123%2F1200,+1201+Gen%C3%A8ve/@46.2093891,6.1407003,17z/data=!3m1!4b1!4m5!3m4!1s0x478c65279eb17a75:0xb0d5a2fd9db8ee4a!8m2!3d46.2093891!4d6.1432752?entry=ttu"
-              ><img src="img/maps-icon.png" alt="Icône Google Maps."
-            /></a>
+            <div class="flex-footer-div">
+              <p>123 Rue du Mont Blanc <br />1200 Genève</p>
+              <a
+                href="https://www.google.com/maps/place/Rue+du+Mont-Blanc+123%2F1200,+1201+Gen%C3%A8ve/@46.2093891,6.1407003,17z/data=!3m1!4b1!4m5!3m4!1s0x478c65279eb17a75:0xb0d5a2fd9db8ee4a!8m2!3d46.2093891!4d6.1432752?entry=ttu"
+                ><img
+                  class="maps-icon"
+                  src="img/maps-icon.png"
+                  alt="Icône Google Maps."
+              /></a>
+            </div>
           </div>
           <div class="col-12 col-lg-4">
             <h4>Suivez-nous sur</h4>
-            <a href=""
-              ><img src="img/instagram-icon.png" alt="Icône Instagram."
-            /></a>
-            <a href=""
-              ><img src="img/facebook-iocn.png" alt="Icône Facebook."
-            /></a>
-            <a href=""
-              ><img src="img/twitter-icon.png" alt="Icône Twitter."
-            /></a>
-            <a href=""
-              ><img src="img/linkedin-icon.png" alt="Icône Linkedin."
-            /></a>
-            <p>© Copyright 2023 Kintsu - created by Serena Voccia</p>
+            <div class="social-icons-div">
+              <a href=""
+                ><img
+                  class="social-icons"
+                  src="img/instagram-icon.png"
+                  alt="Icône Instagram."
+              /></a>
+              <a href=""
+                ><img
+                  class="social-icons"
+                  src="img/facebook-iocn.png"
+                  alt="Icône Facebook."
+              /></a>
+              <a href=""
+                ><img
+                  class="social-icons"
+                  src="img/twitter-icon.png"
+                  alt="Icône Twitter."
+              /></a>
+              <a href=""
+                ><img
+                  class="social-icons"
+                  src="img/linkedin-icon.png"
+                  alt="Icône Linkedin."
+              /></a>
+            </div>
+            <p class="copyright">
+              © Copyright 2023 Kintsu - created by Serena Voccia
+            </p>
           </div>
         </div>
       </div>
