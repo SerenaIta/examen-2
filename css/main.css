@@ -1,6 +1,5 @@
 body {
   margin: 0 auto;
-  padding: 0;
   cursor: url("../img/icon_cursor.png"), auto;
 }
 
@@ -33,6 +32,17 @@ h2 {
   font-size: 30px;
 }
 
+.different-h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.white-h2 {
+  color: #ebe8de;
+  font-size: 30px;
+}
+
 h3 {
   color: #ebe8de;
   font-size: 22px;
@@ -43,32 +53,48 @@ h4 {
   margin: 0;
 }
 
-.hamburger-icon {
+.burger-icon {
   max-width: 29px;
   max-height: 17px;
 }
 
-.gold-button {
+.gold-button-1 {
   border-radius: 15px;
   background: #d2bb5d;
-  padding: 16px 37px;
+  padding: 16px 45px;
   color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 115px 45px 115px;
+}
+
+.gold-button-2 {
+  border-radius: 15px;
+  background: #d2bb5d;
+  padding: 15px 10px;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 78px 100px;
 }
 
 .logo {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   display: flex;
   justify-content: center;
-  padding: 44px;
+  padding-top: 42px;
+  padding-left: 85px;
 }
 
 .moment-selection {
   background-color: #214782;
   padding: 20px;
-  height: 549px;
   border-radius: 27px;
+  margin: 0 15px;
 }
 
 .p-moment-selection {
@@ -89,6 +115,12 @@ h4 {
   visibility: hidden;
 }
 
+.show-mobile {
+  font-size: 22px;
+  padding: 57px 0;
+  margin: 0;
+}
+
 .reservation-container {
   padding-left: 15px;
   background-image: url(/img/footer-bg.jpg);
@@ -98,6 +130,7 @@ h4 {
   padding: 33px 0 18px 15px;
   background-color: #d2bb5d;
   box-shadow: 0px 4px 50px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 390px;
 }
 
 .social-icons {
@@ -141,21 +174,8 @@ a:visited {
 .bg-gradient-last-main-p {
   padding: 56px 15px 54px 15px;
   margin: 0;
-  border-top: 50px solid #b7950b;
-  border-bottom: 4px double #b7950b;
-  background: #f6f1df;
-}
-
-/* background-color: #f6f1df; */
-/* box-shadow: -20px 10px 25px 10px #b7950b inset; */
-
-.carousel-container {
-  overflow: hidden;
-}
-
-.carousel {
-  display: flex;
-  animation: scroll 10s linear infinite;
+  border-bottom: 4px solid #b7950b;
+  background-image: linear-gradient(#b7950b, #f6f1df);
 }
 
 .row-galerie {
@@ -168,4 +188,87 @@ a:visited {
   max-width: 195px;
   height: 162px;
   object-fit: cover;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 10s linear infinite;
+  width: 300%;
+}
+
+@keyframes scroll {
+  0%,
+  25% {
+    transform: translateX(0);
+  }
+  30%,
+  55% {
+    transform: translateX(-33.33%);
+  }
+  60%,
+  85% {
+    transform: translateX(-66.66%);
+  }
+  90%,
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.reservation-container p {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 18px;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 11px;
+  margin-right: 83px;
+}
+.flexbox-reservation {
+  display: flex;
+  flex-wrap: ;
+}
+.reservation-container {
+  width: 393px;
+  height: 332px;
+}
+.little-gold-triangles {
+  width: 15px;
+}
+
+.button {
+  color: black;
+  font-size: 18px;
+  background: #c9c9c9;
+  padding: 10px 19px;
+  border-radius: 11px;
+}
+
+.burger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1; /* permet de faire passer le lien devant le menu */
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  background: #ccc;
+  opacity: 0; /* par défaut, le menu a une opacité de 0 */
+  pointer-events: none; /* par défaut, le menu ne peut pas être cliqué */
+  transition: opacity 0.3s; /* on ajoute une transition pour que l'ouverture se fasse de façon fluide */
+}
+
+.menu.is-active {
+  opacity: 1; /* avec la classe is-active, le menu a une opacité de 1 */
+  pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
 }
