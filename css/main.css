@@ -1,3 +1,6 @@
+@import "modules/_desktop-bootstrap.css";
+@import "modules/_mobile-bootstrap.css";
+
 body {
   margin: 0 auto;
   cursor: url("../img/icon_cursor.png"), auto;
@@ -17,7 +20,6 @@ header {
   background-color: rgb(165, 81, 42);
   background-image: url(../img/header-bg.jpg);
   border-bottom: solid 4px #d2bb5d;
-  height: 314px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,23 +31,19 @@ h3 {
 }
 h2 {
   text-align: center;
-  font-size: 30px;
 }
 
 .different-h2 {
-  font-size: 20px;
   text-align: center;
   font-weight: 400;
 }
 
 .white-h2 {
   color: #ebe8de;
-  font-size: 30px;
 }
 
 h3 {
   color: #ebe8de;
-  font-size: 22px;
 }
 
 h4 {
@@ -58,43 +56,22 @@ h4 {
   max-height: 17px;
 }
 
-.gold-button-1 {
-  border-radius: 15px;
-  background: #d2bb5d;
-  padding: 16px 45px;
-  color: black;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  margin: 0 115px 45px 115px;
-}
-
+.gold-button-1,
 .gold-button-2 {
   border-radius: 15px;
   background: #d2bb5d;
-  padding: 15px 10px;
   color: black;
-  font-size: 20px;
   display: flex;
   justify-content: center;
-  margin: 78px 100px;
 }
 
 .logo {
-  width: 200px;
-  height: 200px;
   object-fit: cover;
-  display: flex;
-  justify-content: center;
-  padding-top: 42px;
-  padding-left: 85px;
 }
 
 .moment-selection {
   background-color: #214782;
-  padding: 20px;
   border-radius: 27px;
-  margin: 0 15px;
 }
 
 .p-moment-selection {
@@ -111,26 +88,13 @@ h4 {
   text-align: center;
 }
 
-.hide-mobile {
-  visibility: hidden;
-}
-
-.show-mobile {
-  font-size: 22px;
-  padding: 57px 0;
-  margin: 0;
-}
-
 .reservation-container {
-  padding-left: 15px;
   background-image: url(/img/footer-bg.jpg);
 }
 
 .footer-container {
-  padding: 33px 0 18px 15px;
   background-color: #d2bb5d;
   box-shadow: 0px 4px 50px 4px rgba(0, 0, 0, 0.25) inset;
-  width: 390px;
 }
 
 .social-icons {
@@ -169,13 +133,6 @@ a:visited {
 .flex-footer-div {
   display: flex;
   align-items: center;
-}
-
-.bg-gradient-last-main-p {
-  padding: 56px 15px 54px 15px;
-  margin: 0;
-  border-bottom: 4px solid #b7950b;
-  background-image: linear-gradient(#b7950b, #f6f1df);
 }
 
 .row-galerie {
@@ -230,12 +187,8 @@ a:visited {
 }
 .flexbox-reservation {
   display: flex;
-  flex-wrap: ;
 }
-.reservation-container {
-  width: 393px;
-  height: 332px;
-}
+
 .little-gold-triangles {
   width: 15px;
 }

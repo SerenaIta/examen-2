@@ -1,0 +1,82 @@
+@media (min-width: 768px) {
+  header {
+    height: 314px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .different-h2 {
+    font-size: 32px;
+  }
+
+  .white-h2 {
+    font-size: 64px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .logo {
+    width: 237px;
+    height: 237px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 42px;
+    padding-left: 85px; */
+  }
+
+  .moment-selection {
+    padding: 25px;
+    /* margin: 0 15px; */
+  }
+
+  .horaires {
+    font-size: 32px;
+  }
+
+  .hide-mobile {
+    font-size: 24px;
+  }
+
+  .show-mobile {
+    visibility: hidden;
+  }
+
+  .gold-button-1 {
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    margin: 0 250px;
+  }
+
+  .gold-button-2 {
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 20px;
+    margin: 0px 280px;
+  }
+
+  .bg-gradient-last-main-p {
+    text-align: center;
+    margin: 133px 0;
+    font-size: 24px;
+  }
+
+  .reservation-container {
+    padding: 0 122px;
+    height: 500px;
+  }
+
+  .footer-container {
+    padding: 45px 122px 52px 122px;
+    background-color: #d2bb5d;
+    box-shadow: 0px 4px 50px 4px rgba(0, 0, 0, 0.25) inset;
+    height: 256px;
+    font-size: 20px;
+  }
+}
