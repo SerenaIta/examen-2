@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .social-icons {
+    max-width: 43px;
+  }
+
+  .maps-icon {
+    max-width: 33px;
+  }
+
+  .footer-container {
+    padding-top: 33px;
+    padding-bottom: 18px;
+  }
+
+  .maps-icon {
+    width: 43px;
+  }
+
+  .social-div {
+    padding-top: 52px;
+  }
+}

@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+    height: 488px;
+    width: 390px;
+    align-content: center;
+    padding-top: 8 0px;
+  }
+
+  .galerie img {
+    height: 162px;
+    width: 195px;
+    object-fit: cover;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .different-h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .bg-gradient-p {
+    font-size: 18px;
+  }
+
+  .gold-button {
+    font-size: 20px;
+  }
+
+  .bg-gradient {
+    background-image: url(/img/bg-gradient.jpg);
+    padding: 55px 15px;
+    border-bottom: solid 4px #d2bb5d;
+  }
+}

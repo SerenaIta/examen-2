@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+  header {
+    height: 554px;
+    background-image: url(/img/header-bg.jpg);
+    border-bottom: solid 5px #d2bb5d;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  header img {
+    max-width: 237px;
+    padding-top: 70px;
+  }
+
+  .nav {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 32px;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  header p {
+    font-size: 24px;
+    padding-top: 45px;
+  }
+
+  nav a:link {
+    color: white;
+  }
+}

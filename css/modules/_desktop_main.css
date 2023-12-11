@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+  .show-mobile {
+    visibility: collapse;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  /* .gold-button-1 {
+  } */
+
+  main {
+    margin: 0 122px;
+  }
+
+  .different-h2 {
+    font-size: 32px;
+  }
+
+  /* .container {
+  } */
+
+  /* .card {
+  /* } */
+
+  .bg-gradient-p {
+    font-size: 24px;
+  }
+
+  /* main {
+    height: 2561px;
+  } */
+
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+    height: 666px;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+    padding-top: 70px;
+  }
+
+  .galerie img {
+    height: 333px;
+    width: calc(100% / 3);
+    object-fit: cover;
+  }
+
+  .gold-button {
+    font-size: 30px;
+  }
+
+  .card {
+    background-color: #214782;
+  }
+}

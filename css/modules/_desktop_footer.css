@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  .social-icons {
+    max-width: 50px;
+  }
+
+  .maps-icon {
+    max-width: 36px;
+  }
+
+  .copyright {
+    font-size: 18px;
+  }
+
+  .footer-container {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+
+  .white-h2 {
+    color: #ebe8de;
+  }
+
+  .reservation-container {
+    background-image: url(/img/footer-bg.jpg);
+    color: rgba(0, 0, 0, 0.35);
+  }
+
+  .reservation-container div {
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+  }
+
+  .flex-triangles {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 25px;
+  }
+
+  .maps-icon {
+    width: 43px;
+  }
+}

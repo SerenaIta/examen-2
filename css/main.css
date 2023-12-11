@@ -1,101 +1,136 @@
-@import "modules/_desktop-bootstrap.css";
-@import "modules/_mobile-bootstrap.css";
-
-body {
-  margin: 0 auto;
-  cursor: url("../img/icon_cursor.png"), auto;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
+@import "modules/_desktop_header.css";
+@import "modules/_mobile_header.css";
+@import "modules/_desktop_main.css";
+@import "modules/_mobile_main.css";
+@import "modules/_desktop_footer.css";
+@import "modules/_mobile_footer.css";
 
 * {
   font-family: Yuji Syuku, serif;
   font-weight: 400;
 }
 
-header {
-  background-color: rgb(165, 81, 42);
-  background-image: url(../img/header-bg.jpg);
-  border-bottom: solid 4px #d2bb5d;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-h2,
-h3 {
-  font-family: STIXGeneral;
-  font-weight: 700;
-}
-h2 {
-  text-align: center;
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
 }
 
-.different-h2 {
-  text-align: center;
-  font-weight: 400;
-}
-
-.white-h2 {
-  color: #ebe8de;
-}
-
-h3 {
-  color: #ebe8de;
-}
-
-h4 {
-  font-size: 20px;
-  margin: 0;
-}
-
-.burger-icon {
-  max-width: 29px;
-  max-height: 17px;
-}
-
-.gold-button-1,
-.gold-button-2 {
-  border-radius: 15px;
-  background: #d2bb5d;
-  color: black;
-  display: flex;
-  justify-content: center;
-}
-
-.logo {
-  object-fit: cover;
-}
-
-.moment-selection {
-  background-color: #214782;
-  border-radius: 27px;
-}
-
-.p-moment-selection {
-  color: #ebe8de;
-  font-size: 18px;
-  letter-spacing: -1.08px;
-}
-
-.img-moment-selection {
-  border-radius: 10px;
+body {
+  margin: 0 auto;
+  cursor: url("../img/icon_cursor.png"), auto;
 }
 
 .center-text {
   text-align: center;
 }
 
-.reservation-container {
-  background-image: url(/img/footer-bg.jpg);
+.different-h2 {
+  font-family: Yuji Syuku, serif;
+  font-weight: 400;
+}
+
+main p {
+  font-size: 18px;
+  letter-spacing: -1.08px;
+}
+
+h3,
+.card p {
+  color: #ebe8de;
+}
+
+h2,
+h3 {
+  font-family: STIXGeneral;
+  font-weight: 700;
+}
+
+.gold-button {
+  border-radius: 15px;
+  background: #d2bb5d;
+  color: black;
+  padding: 15px 30px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
 }
 
 .footer-container {
   background-color: #d2bb5d;
   box-shadow: 0px 4px 50px 4px rgba(0, 0, 0, 0.25) inset;
 }
+
+h4,
+.footer-container a,
+.address-p {
+  font-size: 20px;
+}
+
+.copyright {
+  font-family: "Inter", sans-serif;
+  color: #00000066;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 12px;
+}
+
+.social-icons {
+  padding-right: 28px;
+}
+
+.social-icons-div {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 41px;
+}
+
+.card {
+  background-color: #214782;
+  border-radius: 27px;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.maps-icon {
+  padding-left: 17px;
+}
+
+.address-div {
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+.footer-container a:link,
+.footer-container a:visited {
+  color: black;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: white;
+}
+
+/* 
+
+
+
+.burger-icon {
+  max-width: 29px;
+  max-height: 17px;
+}
+
+
 
 .social-icons {
   width: 43px;
@@ -108,14 +143,6 @@ h4 {
   padding-left: 17px;
 }
 
-.copyright {
-  font-family: "Inter", sans-serif;
-  font-size: 12px;
-  color: #00000066;
-  text-transform: uppercase;
-  margin: 0;
-  padding-top: 42px;
-}
 
 a:link {
   color: black;
@@ -135,17 +162,6 @@ a:visited {
   align-items: center;
 }
 
-.row-galerie {
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.galerie img {
-  max-width: 195px;
-  height: 162px;
-  object-fit: cover;
-}
 
 .carousel-container {
   width: 100%;
@@ -206,7 +222,6 @@ a:visited {
   top: 20px;
   right: 20px;
   z-index: 1; /* permet de faire passer le lien devant le menu */
-}
 
 .menu {
   position: fixed;
