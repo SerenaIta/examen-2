@@ -92,6 +92,7 @@ h4,
 .card {
   background-color: #214782;
   border-radius: 27px;
+  padding: 25px;
 }
 
 .card img {
@@ -121,48 +122,12 @@ h4 {
   color: white;
 }
 
-/* 
-
-
-
 .burger-icon {
   max-width: 29px;
   max-height: 17px;
 }
 
-
-
-.social-icons {
-  width: 43px;
-  padding-right: 39px;
-  padding-top: 20px;
-}
-
-.maps-icon {
-  width: 33px;
-  padding-left: 17px;
-}
-
-
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
-}
-
-.social-icons-div {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-footer-div {
-  display: flex;
-  align-items: center;
-}
-
-
+/* 
 .carousel-container {
   width: 100%;
   overflow: hidden;
@@ -201,13 +166,6 @@ a:visited {
   border-radius: 11px;
   margin-right: 83px;
 }
-.flexbox-reservation {
-  display: flex;
-}
-
-.little-gold-triangles {
-  width: 15px;
-}
 
 .button {
   color: black;
@@ -215,28 +173,4 @@ a:visited {
   background: #c9c9c9;
   padding: 10px 19px;
   border-radius: 11px;
-}
-
-.burger {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1; /* permet de faire passer le lien devant le menu */
-
-.menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 50px;
-  background: #ccc;
-  opacity: 0; /* par défaut, le menu a une opacité de 0 */
-  pointer-events: none; /* par défaut, le menu ne peut pas être cliqué */
-  transition: opacity 0.3s; /* on ajoute une transition pour que l'ouverture se fasse de façon fluide */
-}
-
-.menu.is-active {
-  opacity: 1; /* avec la classe is-active, le menu a une opacité de 1 */
-  pointer-events: auto; /* avec la classe is-active, le menu peut être cliqué */
-}
+} */

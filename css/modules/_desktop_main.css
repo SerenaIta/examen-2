@@ -58,5 +58,11 @@
 
   .card {
     background-color: #214782;
+    width: calc(100% / 3);
+    margin: 0 15px;
+  }
+
+  .cards-container {
+    display: flex;
   }
 }
